@@ -1,0 +1,10 @@
+Device driver is an interface(a software layer) between Real hardware & the software. Its a kernel code to access the hardware.
+One particular can have multiple drivers but a driver cannot support multiple hardwares.
+
+Process management:
+Multiple processes shared the single CPU. 
+Process not even know & does not bother that actually it is sharing the CPU resource with other peer process.
+kernel process management implements the activity of scheduling the CPU resources to the different processes. 
+And the same takes care to achieve the communication between multiple process sugin IPC, signal & pipes.
+
+Memory managemnt:
