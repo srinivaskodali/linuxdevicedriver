@@ -22,6 +22,17 @@
 	tar -xz linux-5.3.tar.gz
 	ln -s linux-5.3 linux(optional step. shorter names are easy for traversal)
 	cd linux
-	
+	make ARCH=x86_84 defconfig
+	make -j40
+
+Let the kernel build by taking its own time... have coffee, snacks... if possible dinner....
+
+4. Installing the kernel
+	make modules_install
+	make install
+		copy the bzimage,vmlinuz & initrd.img from arch/<>/bzImage to /boot/bzIMage-kernelversion
+		copy the System.map to /boot/System.map-kerneversion
+		copy the config to /boot/config-kernelversion
+			Here kernelversion is the variable and its value is equals to vustom kernel version	
 	
 	
