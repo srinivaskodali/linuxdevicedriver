@@ -1,0 +1,1 @@
+cmd_/home/srinivas/linuxdevicedriver/Code-Hello-world/Hello_world_1.mod := { echo  /home/srinivas/linuxdevicedriver/Code-Hello-world/Hello_world_1.o; echo; } > /home/srinivas/linuxdevicedriver/Code-Hello-world/Hello_world_1.mod
