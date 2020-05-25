@@ -1,0 +1,7 @@
+Modules can export symbols, which can be used by ther modules.
+Expoted symbols are part of Kernel symbol table.
+
+EXPORT_SYMBOL(name)
+EXPORT_SMBL_GPL(NAME)
+
+The above macros helps the API(name) to be expoed to other modules by updating the Kernel symbol table. 
